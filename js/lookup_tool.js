@@ -12,11 +12,15 @@ var district_pattern = /ocd-division\/country:us\/district:\D+/;
 
 var federal_offices = ['United States Senate', 'United States House of Representatives', 'U.S. Senator', 'U.S. Representative']
 
+var state_offices = ['State Senate', 'State House of Representatives']
+
 var social_icon_lookup = {
     'YouTube': 'youtube',
     'Facebook': 'facebook',
     'Twitter': 'twitter',
     'GooglePlus': 'google-plus'
+    'Instagram': 'instagram'
+    'TikTok': 'tiktok'
 };
 
 var social_link_lookup = {
@@ -24,6 +28,8 @@ var social_link_lookup = {
     'Facebook': 'https://www.facebook.com/',
     'Twitter': 'https://twitter.com/',
     'GooglePlus': 'https://plus.google.com/'
+    'Instagram': 'https://instagram.com/'
+    'TikTok': 'https://www.tiktok.com/en/'
 };
 
 var selected_state = '';
